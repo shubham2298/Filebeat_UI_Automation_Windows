@@ -38,6 +38,15 @@ class filebeat {
     @Then('^Perform Extract ZIP File$')
     void perform_Extract_ZIP_File() throws Throwable {
 
+        
+       // THIS IS also USE 
+     //    ZipUnArchiver unArchiver = new ZipUnArchiver();
+    //    unArchiver.setSourceFile("C:\\SETUP\\filebeat-7.5.1-windows-x86_64.zip" as File);
+     //   unArchiver.extract("", "C:\\SETUP\\Assignment" as File);
+        
+        
+        
+        
         String pathToUpdateZip = 'C:\\SETUP\\filebeat-7.5.1-windows-x86_64.zip'
         String destinationPath = 'C:\\SETUP\\Assignment'
         byte[] byteBuffer = new byte[1024]
